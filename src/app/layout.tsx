@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { ClerkProvider } from "@clerk/nextjs";
 
 // Import Inter from Google Fonts
 const inter = Inter({
@@ -24,16 +25,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} antialiased`}
-        cz-shortcut-listen="true">
-        <TooltipProvider>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-          <Toaster position="top-center" richColors />
-        </TooltipProvider>
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body
+          className={`${inter.variable} antialiased`}
+          cz-shortcut-listen="true"
+        >
+          <TooltipProvider>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+            <Toaster position="top-center" richColors />
+          </TooltipProvider>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
