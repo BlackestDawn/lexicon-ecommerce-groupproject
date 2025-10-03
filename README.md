@@ -2,8 +2,8 @@
 
 Detta är en gruppövning  där målet är att skapa en **minimalistisk e-handelsplattform**.
 
-Plattformen visar upp ett urval av produkter från ett externt API, är fullt responsiv och ha interaktiva inslag. 
-Målet var att få praktisk erfarenhet av att arbeta med Server Components, 
+Plattformen visar upp ett urval av produkter från ett externt API, är fullt responsiv och ha interaktiva inslag.
+Målet var att få praktisk erfarenhet av att arbeta med Server Components,
 Client Components, statiska och dynamiska routes, hantering av asynkron data och praktiskt agilt arbete i grupp.
 
 
@@ -19,39 +19,40 @@ Client Components, statiska och dynamiska routes, hantering av asynkron data och
 - 🔄 [Sprintplan](#sprintplan)
 - 🤝 [Bidra](#bidra)
 - 👨‍🏫 [Lärdomar](#lärdomar)
+- 🪞 [Reflektion](#reflektion)
 - ™️ [Licens](#licens)
 - 📫 [Kontakt](#kontakt)
 
   ---
-  
+
 ## Om projektet
 📖
-Syfte: Projektet är en gruppövning där målet är att bygga en minimalistisk e-handelsplattform med Next.js 15 och App Router. 
-Fokus ligger på att ge praktisk erfarenhet av Server Components, Client Components, dynamiska och statiska routes, 
+Syfte: Projektet är en gruppövning där målet är att bygga en minimalistisk e-handelsplattform med Next.js 15 och App Router.
+Fokus ligger på att ge praktisk erfarenhet av Server Components, Client Components, dynamiska och statiska routes,
 asynkron datahantering samt agilt grupparbete.
 
 
-Teknologier: Projektet använder Next.js 15 (App Router), TypeScript, React, och ett externt API (t.ex. DummyJSON) för produktdata. 
-Styling sker med valfri metod (t.ex. Tailwind CSS eller CSS-moduler). Git och GitHub används för versionshantering och samarbete, 
+Teknologier: Projektet använder Next.js 15 (App Router), TypeScript, React, och ett externt API (t.ex. DummyJSON) för produktdata.
+Styling sker med valfri metod (t.ex. Tailwind CSS eller CSS-moduler). Git och GitHub används för versionshantering och samarbete,
 och WAVE för tillgänglighetstestning.
 
 
-Funktionalitet: Plattformen inkluderar en startsida med produktöversikt och Hero-sektion, produktsidor med dynamiska routes, 
-sök- och pagineringsfunktioner, samt en kontaktsida med formulär. Interaktiva element som "Lägg till i varukorg"-knappar 
+Funktionalitet: Plattformen inkluderar en startsida med produktöversikt och Hero-sektion, produktsidor med dynamiska routes,
+sök- och pagineringsfunktioner, samt en kontaktsida med formulär. Interaktiva element som "Lägg till i varukorg"-knappar
 och notifikationer implementeras som Client Components.
 
 
-Design och Tillgänglighet: Designen baseras på en valfri mall (t.ex. från Figma eller Frontend Mentor) och anpassas för 
-att vara responsiv och tillgänglig enligt WCAG-riktlinjer. WAVE används för att kontinuerligt testa tillgängligheten 
+Design och Tillgänglighet: Designen baseras på en valfri mall (t.ex. från Figma eller Frontend Mentor) och anpassas för
+att vara responsiv och tillgänglig enligt WCAG-riktlinjer. WAVE används för att kontinuerligt testa tillgängligheten
 under utvecklingen.
 
 
-Arbetsflöde: Projektet är uppdelat i 3-4 sprintar (veckovis) med dagliga Scrum-möten, kodgranskningar via Pull Requests, 
-och kontinuerlig uppdatering av ett projekthanteringsverktyg (t.ex. GitHub Projects eller Trello). Målet är att arbeta 
+Arbetsflöde: Projektet är uppdelat i 3-4 sprintar (veckovis) med dagliga Scrum-möten, kodgranskningar via Pull Requests,
+och kontinuerlig uppdatering av ett projekthanteringsverktyg (t.ex. GitHub Projects eller Trello). Målet är att arbeta
 agilt och säkerställa tydlig kommunikation och ansvarsfördelning.
 
 
-Mål och Redovisning: Projektet avslutas med en redovisning där gruppen visar upp funktionalitet och reflekterar över lärdomar. 
+Mål och Redovisning: Projektet avslutas med en redovisning där gruppen visar upp funktionalitet och reflekterar över lärdomar.
 Individuella reflektioner fokuserar på tekniska genombrott, utmaningar, och förbättringsmöjligheter för framtida samarbeten.
 
 
@@ -75,29 +76,29 @@ f(🗶)
   React är ett JavaScript-bibliotek för att bygga interaktiva och återanvändbara
   användargränssnitt med hjälp av komponenter, som effektivt uppdaterar endast de
   nödvändiga delarna av sidan tack vare Virtual DOM.
-  
+
 - [Next.js 15 (App router)](https://nextjs.org/)
   Next.js är ett React-ramverk som förenklar utvecklingen av moderna webbapplikationer
   genom att erbjuda server-side rendering (SSR), statisk generering (SSG), routning,
   API-stöd och optimering för SEO och prestanda – allt utöver Reacts grundfunktioner.
-  
+
 - [WAVE](https://wave.webaim.org/)
   WAVE (Web Accessibility Evaluation Tool) är ett verktyg för att utvärdera
   tillgängligheten på webbplatser, som hjälper utvecklare att identifiera och
   åtgärda problem enligt   riktlinjer som WCAG (Web Content Accessibility Guidelines)
   för att säkerställa att webbinnehåll är tillgängligt för alla användare,
   inklusive personer med funktionsnedsättningar.
-  
+
 - [Tailwind](https://tailwindcss.com/)
   Tailwind CSS är ett utility-first CSS-ramverk som gör det möjligt att snabbt designa
   anpassningsbara gränssnitt direkt i HTML med fördefinierade klasser, vilket minskar behovet
   av skräddarsydd CSS och förenklar responsiv och konsekvent styling.
-  
+
 - [Lucide](https://lucide.dev/)
   Lucide är ett öppen källkod-bibliotek med enkla, skalbara och anpassningsbara
   ikoner designade för webbprojekt, optimerade för användning
   med ramverk som React och Next.js.
-  
+
 - [Shadcn](https://ui.shadcn.com/)
   shadcn/ui är en samling anpassningsbara och tillgängliga React-komponenter,
   byggda med Radix UI och stylade med Tailwind CSS, som gör det enkelt att skapa
@@ -124,7 +125,7 @@ npm run dev
 ---
 
 ## Användning
-🚀 
+🚀
 * Startsida -> visar produkter + hero
 * Om oss -> statisk sida med test och bild
 * Produktsida -> visar och filtrerar produkter
@@ -223,7 +224,23 @@ Vill du bidra?
 * GitHub samarbete
 * SCRUM med dagliga standups samt veckans retrospektiv
 * Sprint planering med kanban
-* 
+
+---
+
+## Reflektion
+🪞
+
+### Min bidrag till projektet:
+
+* Implementerade sidhuvud komponent med navigerings meny, Site-logga, och Site-ikoner. Navigering menyn hade också responsivitet genom växla mellan rad av länkar och hamburger meny beroende på skärmstorleken.
+* Ansvarade för att sätta upp routen /products/[id] och att hämta detaljdata från API via fetch i server komponent.
+* Ansvarade för att sätta upp routen /admin och /admin/orders, Detta inkluderade en sub-layout med en sidebar för navigering inom /admin-routen och enkla placeholder sidor. Primärt servercomponenter med navigering i client component eftersom den markerar vald undersida.
+* Ansvarade för att sätta upp routen /admin/products med enkel lista över produkter för översikt och administering. Hämta product översikt via fetch i server komponent. Updatera och ta-bort knappar i client komponenter.
+
+### Vad jag skulle videreutveckla:
+
+* Skulle implementera state-hantering för varukorg och en order sida.
+* Skulle implementera inloggnings-system så andvändare kan se sina ordrar, och begränsa vilka som kan komma åt /admin-routen.
 
 ---
 
